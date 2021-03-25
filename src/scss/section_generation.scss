@@ -1,0 +1,51 @@
+.content {
+}
+.generation {
+  padding: 120px 0;
+  background-color: #f7f7f7;
+  &__block {
+  }
+  @media (max-width: 900px) {
+    padding: 80px 0;
+  }
+  @media (max-width: 600px) {
+    padding: 30px 0;
+  }
+}
+
+.block {
+  text-align: center;
+  &__icon {
+    margin: 0 0 30px 0;
+  }
+
+  &__title {
+    color: #353738;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    margin: 0 0 18px 0;
+  }
+
+  &__text {
+    color: #848789;
+    font-size: 18px;
+    line-height: 34px;
+
+    &_company {
+      text-align: justify;
+      font-size: 16px;
+      line-height: 30px;
+      &:after {
+        content: '';
+        display: block;
+        margin: 35px auto 0px auto;
+        width: 50px;
+        height: 1px;
+        background-color: #ebebeb;
+      }
+    }
+  }
+}
