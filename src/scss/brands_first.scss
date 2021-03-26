@@ -80,10 +80,19 @@
     justify-content: center;
     align-items: center;
     z-index: 2;
+    flex-direction: column;
     background-color: rgba(100, 194, 158, 0.5);
     transition: all 0.6s ease 0s;
     opacity: 0;
     visibility: hidden;
+    span {
+      margin: 10px 0 0 0;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 2.8px;
+      text-transform: uppercase;
+      color: #fff;
+    }
   }
   &:hover {
     .item__logo {
