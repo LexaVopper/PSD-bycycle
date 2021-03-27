@@ -51,6 +51,9 @@
     }
   }
   @media (max-width: 630px) {
+    &__body {
+      padding: 65px 0;
+    }
     &__form {
       flex-direction: column;
     }
